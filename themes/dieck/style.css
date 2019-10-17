@@ -1,0 +1,685 @@
+/* Theme Name: dieck
+*/
+
+
+body{
+	margin: auto	;
+	text-align: center;
+	color: rgba(111,111,111,1);
+	font-family: Helvetica;
+	font-size: 1vw;
+	/* background: url('http://dieck.local/wp-content/uploads/2019/08/fondo.png'); */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+a:hover{
+	text-decoration: none;
+	color:inherit;
+	color: rgba(111,111,111,1);
+}
+a{
+	text-decoration: none;
+	color:inherit;
+	color: rgba(111,111,111,1);
+}
+a,a:link{
+	text-decoration: none;
+	color:inherit;
+	color: rgba(111,111,111,1);
+}
+a:visited,a:active{
+	text-decoration: none;
+	color:inherit;
+	color: rgba(111,111,111,1);
+}
+img{
+	width: 100%;
+}
+
+h1, h3, h4, h5, h6
+{
+	margin-top:1em ;
+}
+h2 {
+	margin-top:1em ;
+
+}
+h1{
+	font-size: 5.5vw;
+	color:rgba(119,11,21,1);
+	font-weight: bold;
+
+}
+h2{
+	font-size: 3.5vw;
+	color:rgba(119,11,21,1);
+	font-weight: bold;
+}
+h3{
+	font-size: 2vw;
+	color:rgba(119,11,21,1);
+	font-weight: bold;
+}
+h4{
+	/* text-transform: uppercase; */
+	font-size: 3vw;
+	color:white;
+	/* text-align: left; */
+	font-weight: bold;
+}
+h5{
+	/* text-transform: 	uppercase; */
+	font-size: 3vw;
+	color:rgba(111,111,111,1);
+	/* text-align: left; */
+	font-weight: bold;
+}
+h6{
+	font-size:1.5vw;
+	color:rgba(119,11,21,1);
+	font-weight: bold;
+}
+.p-red{
+	font-size: 2vw;
+	color:rgba(119,11,21,1);
+	/* text-align: left; */
+	font-weight: normal;
+}
+.p-grey{
+	font-size: 30px;
+	color:rgba(111,111,111,1);
+	/* text-align: left; */
+	font-weight: normal;
+}
+.wp-block-embed__wrapper iframe {
+	border: 0;
+	width: 100%;
+	height: 40vw;
+}
+}
+.iframe-map{
+	border: 0;	height: 100%;	left: 0;	position: absolute;	top: 0; 	width: 100%;
+}
+.iframe-container{
+	overflow: hidden;
+	padding-top: 100%;
+	position: relative;
+}
+.header{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+}
+.padding_right25px{
+	padding-right: 25px
+}
+
+/*General classes*/
+#main{
+	padding-top: 6vw;
+}
+.text-left{
+	text-align:left
+}
+div.polaroid {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img.polaroid {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Nosotoros */
+div figure img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nos-map{
+	width: 100%;
+	height: 31vw;
+}
+.topmargin0{
+	margin-top:0;
+}
+.topmargin{
+
+}
+
+/*Materiales*/
+.container{
+	padding:0.3em;
+	max-width: -webkit-fill-available;
+}
+.thumb-mat {
+	width: 30vw;
+	height: 18vw;
+}
+
+/*Material*/
+.mini-thumb-mat1 {
+	width: 16vw;
+	height: 16vw;
+	padding: 0;
+}
+.img-mat-large {
+	width: 33vw;
+	height: 33vw;
+}
+#img-mat{
+	width: 34vw;
+}
+.img-textura{
+	background-size: cover;
+	width: 16vw;
+	height: 16vw;
+}
+/*Servicions*/
+.thumb-serv{
+	width: 100%;
+	height: 300px;
+}
+/* Inspiracion */
+.cont-inspiracion{
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+/*Galeria*/
+.large-img{
+	max-height: 30rem;
+	/* margin:auto; */
+	height:30rem;
+}
+.galeria-thumb{
+	max-height:9vw;
+	max-width:100%;
+	opacity:0.5
+}
+.polaroid {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.arrow-right {
+	width: 1em;
+	height: 0.5em;
+	position: relative;
+	background: rgba(119,11,21,1);
+	margin: auto;
+	top: 1em;
+	left: 1em;
+	cursor: pointer;
+}
+.arrow-right:before {
+	content: "";
+	position: absolute;
+	right: -1.5em;
+	bottom: -0.45em;
+	width: 0;
+	height: 0;
+	border-left: 1.5em solid rgba(119,11,21,1);
+	border-top: 0.75em solid transparent;
+	border-bottom: 0.75em solid transparent;
+	cursor: pointer;
+}
+
+.arrow-left{
+	position: relative;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-right: 1.5em solid rgba(119,11,21,1);
+	border-top: .75em solid transparent;
+	border-bottom: .75em solid transparent;
+	top: 0.45em;
+	cursor: pointer;
+}
+.arrow-left:before{
+	content: "";
+	position: absolute;
+	background: rgba(119,11,21,1);
+	left: 1.5em;
+	top: -0.23em;
+	width: 1em;
+	height: 0.45em;
+	cursor: pointer;
+}
+.mobile{
+	display: none;
+}
+.notmobile{
+			display: block;
+}
+
+/*Home*/
+img.mat-home-img{
+	width: 15vw;
+	height: 15vw;
+}
+.align-left{
+	text-align:left;
+}
+.video{
+	height: 35vw;
+}
+.g-recaptcha{
+	transform: scale(0.7);
+	-webkit-transform: scale(0.7);
+	transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	/*margin-left: 1vw;*/
+}
+
+@media (max-width: 1295px){
+	.g-recaptcha{
+		transform: scale(0.5);
+		-webkit-transform: scale(0.6);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+
+@media (max-width: 1100px) {
+	.g-recaptcha{
+		transform: scale(0.55);
+		-webkit-transform: scale(0.55);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+
+@media m(ax-width: 1000px){
+	.g-recaptcha{
+		transform: scale(0.50);
+		-webkit-transform: scale(0.50);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+
+
+@media (max-width: 900px){
+	.g-recaptcha{
+		transform: scale(0.45);
+		-webkit-transform: scale(0.45);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+
+@media (max-width: 800px){
+	.g-recaptcha{
+		transform: scale(0.40);
+		-webkit-transform: scale(0.40);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+
+@media (max-width: 700px){
+	.g-recaptcha{
+		transform: scale(0.35);
+		-webkit-transform: scale(0.35);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+@media (max-width: 612px){
+	.g-recaptcha{
+		transform: scale(0.30);
+		-webkit-transform: scale(0.30);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+@media (max-width: 575px){
+	.g-recaptcha{
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		transform-origin: 0 0;
+		-webkit-transform-origin: 0 0;
+	}
+}
+.btn-enviar{
+	/* width: 30%; */
+	background: rgba(119,11,21,1);
+	border: rgba(119,11,21,1);
+	color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: 1vw;
+	/*margin-left: 3vw;*/
+}
+.btn-captcha{
+	width:45%;
+	background: rgba(119,11,21,1);
+	border: rgba(119,11,21,1);
+	color:white;
+	font-weight: bold;
+	margin-top: 1.5vw;
+	margin-left: 1vw;
+
+}
+.th-red{
+	background: rgba(119,11,21,1);
+	color:white;
+	font-size: 1.5vw;
+	height: 5vw;
+}
+.th-grey{
+	background: rgba(111,111,111,1);
+	color:white;
+	font-size: 1.5vw;
+	height: 5vw;
+}
+.td-grey{
+	/*width: 25%;*/
+	background: rgba(111,111,111,0.2);
+	padding: 1em;
+}
+.td-white{
+	/*width: 25%;*/
+	background: white;
+	padding: 1em;
+}
+.p-joyas{
+	font-weight: 100;
+	line-height: inherit;
+	font-style: italic;
+}
+.div-thumbnails{
+	height:199px
+}
+.p-materiales{
+	margin-top: 1vw;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*Header  */
+.menu-hamburger{
+	visibility:  hidden;
+}
+
+header h3{
+	font-size:1em;
+	text-transform: uppercase;
+}
+.space{
+	height:2vw;
+}
+.gradient{
+	background-image: linear-gradient(rgba(111,111,111,0.7), rgba(0,0,0,0));
+	height:1vw;
+}
+
+.p-header {
+	margin-top: 2vw;
+	font-size: 1vw;
+}
+
+
+/*Footer  */
+footer {
+	background: #b7b6b661;
+	/*color: black;*/
+	/* font-weight:bold; */
+
+}
+footer h2{
+	font-size:1vw;
+	color:rgba(119,11,21,1);
+	font-weight:bold;
+	text-align:center;
+	text-transform: uppercase;
+}
+footer h3{
+	font-size:1.3vw;
+	text-align: left;
+}
+footer h5{
+	font-size:1.3vw;
+	text-align: left;
+}
+footer ul{
+	list-style-type:none;
+	padding: 0;
+}
+footer p{
+	font-size: 0.8vw;
+	font-weight: bold;
+	margin-bottom:0.8em;
+}
+footer img{
+	width: 4vw;
+	marginleft: 3vw;
+}
+.logo-dieck{
+	width: 90%;
+	marginleft: 0;
+}
+
+.materiales ul {
+	-webkit-column-count:2;
+}
+.foot-menu ul{
+	text-align: left;
+}
+.foot_form{
+	text-align:left;
+}
+button, input{
+	width:100%
+}
+.form-group{
+	margin-bottom:0;
+}
+footer label{
+	margin-top: .5rem;
+	margin-bottom: 0;
+	font-weight:100;
+}
+.btn-footer{
+	width:100%;
+	background	: rgba(119,11,21,1);
+	border: rgba(119,11,21,1);
+	color:white;
+	font-size:1.4em;
+	font-weight: bold;
+	margin-top: .75vw;
+}
+
+
+/* @import "css/stylesomethin.css"; */
+@media (max-width: 575px) {
+	.logo-dieck{
+		width: 50%;
+	}
+
+	body{
+		font-size: 1rem;
+		text-align: center;
+		margin: 8vw;
+	}
+	h2 {
+		font-size: 10vw;
+		color: rgb(119, 11, 21);
+		font-weight: bold;
+	}
+	h3 {
+		font-size: 7vw;
+		color: rgb(119, 11, 21);
+		font-weight: bold;
+	}
+	h6 {
+    font-size: 1.5em;
+	}
+	footer p {
+		font-size: 1rem;
+	}
+	footer h2 {
+		font-size:2em;
+		margin-top: 0;
+	}
+	footer h5{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	.th-red,.th-grey {
+		font-size: 1em;
+		height: 12vw;
+	}
+	.p-red {
+		font-size: 1rem;
+	}
+	p{
+		font-size: 1.3em;
+	}
+	.align-left {
+		text-align: center;
+	}
+	footer img {
+		width: 15vw;
+	}
+	footer div{
+		text-align: center;
+	}
+	footer h3 {
+		text-align: center;
+	}
+	.foot-menu ul {
+		text-align: center;
+	}
+	.form-group{
+		text-align:center;
+	}
+	.p-header {
+		margin-top: 2vw;
+		font-size: 1em;
+	}
+	#arrow-back {
+		margin: auto;
+	}
+	#arrow-fwd{
+		margin: auto;
+	}
+	img {
+		width: 50%;
+	}
+	.mobile_thumb{
+		width:25%;
+	}
+	.mobile_space
+	{
+		height: 8vw;
+	}
+	.thumb-mat {
+		width: 100%;
+		height: 60VW;
+	}
+	img.mat-home-img {
+		width: 100%;
+		width: 1;
+		height: 55vw;
+	}
+	#img-mat{
+		width: 100%;
+		height: 80vw;
+	}
+	.mini-thumb-mat1 {
+		width: 16vw;
+		height: 16vw;
+		padding: 0;
+	}
+	.col-sm-6.mini-thumb-mat1{
+		width: 45%;
+		margin-right: 10px;
+	}
+	.mini-thumb-mat1{
+		width: 100%;
+		height:40vw
+	}
+	#texture-text{
+		width: 45%;
+		margin-left:10px;
+	}
+	.paddingbtm20{
+	    padding-bottom: 20px;
+		}
+	/* hamburger Header */
+	.header{
+		visibility: hidden;
+		top: 26vw;
+		right: 20px;
+		/* position: absolute; */
+		width: 50vw;
+		font-size: 2em;
+}
+.menu-visible{
+	visibility: visible;
+}
+
+	.menu-hamburger{
+		display: block;
+		color: rgba(111,111,111,1);
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 3em;
+		z-index:1000;
+		visibility: visible;
+		position: fixed;
+		right: 0;
+	}
+	.mobile{
+		display: block;
+	}
+	.notmobile{
+		display: none;
+	}
+	/* WORDPRESS MOBILE MODIFICIATIONS */
+	.wp-block-media-text {
+		display: block;
+		grid-template-rows: auto;
+		align-items: center;
+		grid-template-areas: "media-text-media media-text-content";
+		grid-template-columns: 50% auto;
+	}
+
+	/*servicions extra*/
+
+	.td-grey{
+		padding: 1em;
+		background: #e4e3e3;
+	}
+	.td-white{
+		padding: 1em;
+		background: white;
+	}
+	.td-img{
+		padding: 0;
+	}
+	/*INSPIRACION*/
+	.img-insp{
+		padding: 1em;
+	}
+	.img-textura {
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+}
+
+	/*
+	TODO:
+	CHECAR IMG IN MEDIA 575 QUE TENIA EL 15% WIDTH
+	AGREGAR  A LOS CLASS COL-2 DEL LOS THUMBNAILS, EN GALERIA, LA CLASE mobile_thumb
+	AGREGAR, EN GALERIA, AL ROW SPACE ENTRE FLECHAS Y THUMBNAILS LA CLASE mobile_space
+	REMOVER  text-align:left DEL ESTILO DEL H1 EN GALERIA, y agregar class="align-left"
+	CHECAR EFFECTOS DE COMENTAR PROPIEDAD .td-grey{	width: 25%;} TAMBIEN EN TD-WHITE */
+	} /* End of media */
+
+	.menu-hidden{
+		visibility: hidden;
+	}

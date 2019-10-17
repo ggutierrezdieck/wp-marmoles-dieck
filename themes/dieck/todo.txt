@@ -1,0 +1,14 @@
+Get files to download
+register captcha
+
+
+fill posts
+contacto form
+Galery thumbnails size
+check responsivenes
+Style de Nosotros
+hacer que el header sea sticky
+Hacer arrow right responsive
+
+
+cada material se debe poder agrega  r una nueva
